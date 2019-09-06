@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body {
+        height: 100%;
+      }
+      .wrap {
+        background-color: #333333;
+        height: 100%;
+      }
+      .wrap > .p > p {
+        /* display: inline-block; */
+        color: #f78a1d;
+        /* font-weight: 300px; */
+        font: bold 30px "微软雅黑";
+        margin: 0 auto;
+        text-align: center;
+        /* margin-top: 30px; */
+      }
+      .wrap > .p {
+        box-sizing: border-box;
+        padding-top: 80px;
+      }
+      .egg {
+        width: 220px;
+        height: 300px;
+        background-image: radial-gradient(
+          at 30% 30%,
+          #ffd8b0,
+          #f78a1d,
+          #f78a1d
+        );
+        border-radius: 50% / 60% 60% 40% 40%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="p">
+        <p>CSS egg</p>
+      </div>
+      <div class="egg"></div>
+    </div>
+  </body>
+</html>
